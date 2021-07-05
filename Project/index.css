@@ -1,0 +1,407 @@
+*{
+	margin:  0px;
+	padding:  0px;
+}
+/*css for headers*/  
+
+.header{
+	height:  90px;
+	width:  100%;
+	/*background-color: rgba(16,128, 234,1);*/
+	display: flex;
+	justify-content: space-around;
+	position: fixed;
+
+	
+}
+.container{
+	width:  90%;
+	/*background-color: red;*/
+	display: flex;
+	justify-content: space-evenly;
+}
+.logo{
+	height: 90px;
+	width:  20%;
+	/*background-color: yellow;*/
+	font-size: 40px;
+	font-family: segoe UI;
+	text-align: center;
+	font-weight: bold;
+	line-height: 90px;
+	color: white;
+}
+.nav{
+	height:  90px;
+	width:  30%;
+	/*background-color: green;*/
+	display: flex;
+}
+.header_container{
+	justify-content: space-between;
+}
+.nav-item{
+	width: 20%;
+	height:  90px;
+	/*background-color: gray;*/
+	font-size: 18px;
+	font-family: segoe UI;
+	text-align: center;
+	line-height: 90px;
+	cursor: pointer;
+	color: white;
+	transition: .4s;
+}
+.nav-item:hover{
+	background-color: white;
+	color: rgba(16,128, 234,1);
+}
+.banner{
+	height: 95vh;
+	width: 100%;
+	background-color: gray;
+	background-size: cover;
+	background-image: url('images/banner.jpg');
+}
+.overlay{
+	height: 95vh;
+	width:  100%;
+	background-color: rgba(0,0,0,0.5);
+	display: flex;
+	align-items: center;
+}
+.banner_text{
+	height: 350px;
+	width: 50%;
+	background-color: rgba(16,128, 234,0.7);
+	font-family: segoe UI;
+	display: flex;
+	align-items: center;
+	color: white;
+}
+.banner_title{
+	font-size: 50px;
+	margin-bottom: 15px;
+}
+
+.banner_desc{
+	margin-bottom: 30px;
+	text-align: justify;
+}
+
+.padd{
+	padding:  50px;
+	
+}
+.banner_btn{
+	padding-left:  60px;
+	padding-right:  60px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-transform: uppercase;
+	color:  white;
+	background-color: transparent;
+	font-family: segoe UI;
+	border:  3px solid white;
+	cursor: pointer;
+	transition: 0.4s;
+	line-height: 50px;
+}
+.banner_btn:hover{
+	background-color: white;
+	color:  rgba(16,128, 234,1);
+}
+.services{
+	padding-top:  50px;
+	padding-bottom:  50px;
+	background-color: rgb(220,220,220,1);
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-evenly;
+	font-family: segoe UI;
+}
+
+.services_container{
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.service{
+	height: 400px;
+	width: 47%;
+	background-color: white;
+	display: flex;
+	margin-top: 50px;
+
+}
+.img{
+	height: 400px;
+}
+.service_img{
+	width: 40%;
+	height: 400px;
+	overflow: hidden;
+	image-rendering: inherit;
+
+}
+.service_details{
+	width: 60%;
+	display: flex;
+	align-items: center;
+	text-align: justify;
+
+}
+.service_btn{
+	padding-left:  60px;
+	padding-right:  60px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	color:  white;
+	background-color: rgba(16,128, 234,1);
+	font-family: segoe UI;
+	border:  3px solid white;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.service_btn:hover{
+	background-color: white;
+	color:  rgba(16,128, 234,1);
+}
+.service_title{
+	margin-bottom: 15px;
+}
+.service_desc{
+	margin-bottom: 30px;
+}
+.about{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	/*background-color: gray;*/
+	display: flex;
+	flex-direction: column;
+	font-family: segoe UI;
+	align-items: center;
+	width: 100%;
+	margin-top: 20px;
+}
+.about_container{
+	margin-top: 30px;
+	line-height: 25px;
+	display: inline;
+}
+.start_text{
+	font-size: 40px;
+	color: gray;
+	font-weight: bold;
+}
+
+
+.highlight{
+padding-top: 50px;
+padding-bottom:  50px;
+width: 100%;
+display: flex;
+justify-content:center;
+align-items: center;
+background-color: rgba(16,128, 234,1);
+}
+.highlight_container{
+	justify-content: space-between;
+}
+
+
+.high_ele{
+	width:  22%;
+	height: 300px;
+	background-color: rgba(0, 0, 0, 0.4);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: segoe UI;
+	text-align: center;
+	color: white;
+}
+
+
+.high_title{
+	font-size: 60px;
+
+}
+.high_desc{
+	font-size: 25px;
+}
+
+.qoute{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	font-family: segoe UI;
+}
+.quote_container{
+	flex-direction: column;
+	align-items: center;
+}
+.qoute_title{
+	font-size: 50px;
+	margin-bottom: 20px;
+
+}
+.qoute_btn{
+	padding-left:  60px;
+	padding-right:  60px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	color:  white;
+	background-color: rgba(16,128, 234,1);
+	font-family: segoe UI;
+	border:  3px solid white;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.qoute_btn:hover{
+	background-color: white;
+	color:  rgba(16,128, 234,1);
+}
+.portfolio{
+	
+	width: 100%;
+	display: flex;n;
+	justify-content: center;
+	background-color: rgb(220,220,220,1);
+	font-family: segoe UI;
+}
+.portfolio_container{
+	flex-wrap: wrap;
+	width: 100%;
+
+}
+.project{
+	width: 25%;
+	height: 400px;
+	display: flex;
+	overflow: hidden;
+}
+.project_1{
+	background-image: url("https://images.pexels.com/photos/6348047/pexels-photo-6348047.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+	background-size: cover;
+}
+.project_2{
+	background-image: url("https://images.pexels.com/photos/5205097/pexels-photo-5205097.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+	background-size: cover;
+	align-items: flex-end;
+}
+.project_3{
+	background-image: url("https://images.pexels.com/photos/315788/pexels-photo-315788.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+	background-size: cover;
+}
+.project_4{
+	background-image: url("https://guidetour.in/wp-content/uploads/2018/06/5-highway-dhabas-in-India.jpg");
+	background-size: cover;
+	align-items: flex-end;
+}
+.project_5{
+	background-image: url("https://images.pexels.com/photos/3209035/pexels-photo-3209035.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+	background-size: cover;
+}
+.project_6{
+	background-image: url("https://www.khaskhabar.com/s3-storage/khaskhabar/khaskhabarimages/img500/24-hours-running-library-in-solan-himachal-24-1503316926-248661-khaskhabar.jpg");
+	background-size: cover;
+	align-items: flex-end;
+}
+.project_7{
+	background-image: url("https://images.pexels.com/photos/1089306/pexels-photo-1089306.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+	background-size: cover;
+}
+.project_8{
+	background-image: url("https://images.pexels.com/photos/675960/mic-music-sound-singer-675960.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+	background-size: cover;
+	align-items: flex-end;
+}
+.project_title{
+	color: white;
+	width: 100%;
+	height: 200px;
+	text-indent: 30px;
+	line-height: 200px;
+	background-color: rgba(16,128, 234,.5);
+	cursor: pointer;
+	transition: .4s;
+}
+.project_title:hover{
+	height: 400px;
+}
+
+.footer{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: rgb(0,0,0,0.8);
+	display: flex;
+	justify-content: center;
+
+}
+.footer_child{
+	height: 200px;
+	width: 25%;
+	font-family: segoe UI;
+	display: flex;
+	justify-content: center;
+}
+.footer_child_1{
+	
+	color: white;
+	font-size: 30px;
+	align-items: center;
+}
+ul{
+	margin:40px ;
+}
+li{
+	list-style-type: none;
+	margin-bottom: 10px;
+	color: white;
+}
+
+.first{
+font-size: 22px;
+
+}
+
+.footer_child_4{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.social_container{
+	width: 60%;
+	justify-content: space-between;
+}
+.social_icon{
+	height: 40px;
+	width: 40px;
+	background-size: cover;
+	cursor: pointer;
+}
+
+.social_icon:hover{
+	height: 50px;
+	width: 50px;
+}
+
+.si_1{
+	background-image: url("images/facebook.png");
+}
+.si_2{
+	background-image: url("images/google.png");
+}
+.si_3{
+	background-image: url("images/linkedin.png");
+}
+.si_4{
+	background-image: url("images/insta.png");
+}
